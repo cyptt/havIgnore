@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A317C2AF840D158207D59EF /* Pods_haveIg_haveIgUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712C015B2666880DB1DCFD6A /* Pods_haveIg_haveIgUITests.framework */; };
 		44339777A934A15B9CD45D18 /* Pods_haveIgTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6624BDC8D7EF7F9F3EF27E96 /* Pods_haveIgTests.framework */; };
+		8539F70925CB96CE00D381DA /* Testdddd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8539F70825CB96CE00D381DA /* Testdddd.m */; };
 		85A3B5E725CB8EB500DD3E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A3B5E625CB8EB500DD3E09 /* AppDelegate.m */; };
 		85A3B5EA25CB8EB500DD3E09 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A3B5E925CB8EB500DD3E09 /* SceneDelegate.m */; };
 		85A3B5ED25CB8EB500DD3E09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A3B5EC25CB8EB500DD3E09 /* ViewController.m */; };
@@ -46,6 +47,8 @@
 		65580B37282BFAAE3F11D85A /* Pods-haveIg-haveIgUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haveIg-haveIgUITests.release.xcconfig"; path = "Target Support Files/Pods-haveIg-haveIgUITests/Pods-haveIg-haveIgUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6624BDC8D7EF7F9F3EF27E96 /* Pods_haveIgTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_haveIgTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		712C015B2666880DB1DCFD6A /* Pods_haveIg_haveIgUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_haveIg_haveIgUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8539F70725CB96CE00D381DA /* Testdddd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testdddd.h; sourceTree = "<group>"; };
+		8539F70825CB96CE00D381DA /* Testdddd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Testdddd.m; sourceTree = "<group>"; };
 		85A3B5E225CB8EB500DD3E09 /* haveIg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haveIg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A3B5E525CB8EB500DD3E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85A3B5E625CB8EB500DD3E09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				85A3B5F325CB8EB600DD3E09 /* LaunchScreen.storyboard */,
 				85A3B5F625CB8EB600DD3E09 /* Info.plist */,
 				85A3B5F725CB8EB600DD3E09 /* main.m */,
+				8539F70725CB96CE00D381DA /* Testdddd.h */,
+				8539F70825CB96CE00D381DA /* Testdddd.m */,
 			);
 			path = haveIg;
 			sourceTree = "<group>";
@@ -174,7 +179,6 @@
 				CDB253B3C07A615721A93C1E /* Pods-haveIgTests.debug.xcconfig */,
 				3DB2AAB9DCBDED353192FDA2 /* Pods-haveIgTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -417,6 +421,7 @@
 			files = (
 				85A3B5ED25CB8EB500DD3E09 /* ViewController.m in Sources */,
 				85A3B5E725CB8EB500DD3E09 /* AppDelegate.m in Sources */,
+				8539F70925CB96CE00D381DA /* Testdddd.m in Sources */,
 				85A3B5F825CB8EB600DD3E09 /* main.m in Sources */,
 				85A3B5EA25CB8EB500DD3E09 /* SceneDelegate.m in Sources */,
 			);

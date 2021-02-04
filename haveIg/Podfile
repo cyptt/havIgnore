@@ -7,6 +7,7 @@ target 'haveIg' do
 
   # Pods for haveIg
  pod 'AFNetworking'
+ pod 'YYCache'
   target 'haveIgTests' do
     inherit! :search_paths
     # Pods for testing
